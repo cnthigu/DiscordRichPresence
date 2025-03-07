@@ -45,8 +45,8 @@ static DWORD WINAPI main_thread( void* )
     discord::Activity activity{ };
 
     activity.SetDetails( "Classic Conquer" );
-    activity.SetState( "Join Now" );
-    activity.GetAssets( ).SetLargeImage( "co800_w14si3ja08l2ry" );
+    activity.SetState( "http://origensco.com/" );
+    activity.GetAssets( ).SetLargeImage( "origensco_resized" );
     activity.GetAssets( ).SetLargeText( "Testando23092390320923" );
     activity.GetTimestamps( ).SetStart( std::time( nullptr ) );
 
